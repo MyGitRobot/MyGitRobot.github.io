@@ -1,0 +1,45 @@
+body{
+	background-image: url(../img/index_bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+a{text-decoration: none;}
+a:link{color: white;}
+a:hover{color: white;}
+a:visited{color: white;}
+a:active{color: white;}
+
+.container{
+	top: 50px;
+	bottom: 50px;
+}
+
+.main{
+	text-align: center;
+	color: white;
+	font-size: 100px;
+	text-shadow: 3px 3px 10px black;
+}
+
+.enter{
+	text-align: center;
+	color: white;
+	font-size: 36px;
+	text-shadow: 0 0 5px black, 0 0 20px red;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.enter:hover{
+	box-shadow: 0 -3px 10px rgba(255,100,100,0.8),
+	3px 0 10px rgba(255,100,100,0.8),
+	0 3px 10px rgba(255,100,100,0.8),
+	-3px 0 10px rgba(255,100,100,0.8);
+}
+
+.hidden{
+	display: none;
+}

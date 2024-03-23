@@ -1,0 +1,81 @@
+body{
+	background-image: url(../img/contact_bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+a{text-decoration: none;}
+a:link{color: white;}
+a:hover{
+	color: white;
+	padding-bottom: 1px;
+	border-bottom: 1.5px solid rgb(200,200,180);
+}
+a:visited{color: white;}
+a:active{colore: white;}
+
+.set-lan{
+	color: rgba(0,0,0,0.3);
+	font-size: 14px;
+	text-align: right;
+	position: fixed;
+	right: 1em;
+}
+
+.eng:hover{
+	text-shadow: 0 0 1em orange;
+	color: rgba(0,0,0,0.6) !important;
+	padding-bottom: 0;
+	border-bottom: 0 solid rgb(200,200,180);
+}
+
+.head{
+	color: white;
+	text-shadow: black 1px 1px 3px;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 2%;
+}
+
+.main{
+	text-align: center;
+	color: white;
+	padding-top: 5%;
+	text-shadow:  0 0 0.5em black, 0 0 0.8em orange;
+}
+
+.content{
+	font-size: 72px;
+}
+
+.thanks{
+	color: rgb(180,160,150);
+	font-size: 12px;
+}
+
+.github{
+	color: rgb(200,180,180);
+	font-size: 12px;
+}
+
+.last{
+	padding-top: 10em;
+	left: 0;
+	right: 0;
+	font-size: 12px;
+	text-align: center;
+	margin-bottom: 3em;
+}
+
+#home:hover{
+	padding-bottom:2px;
+	border-bottom:2px solid white;
+	box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+}
+
+#contact{
+	padding-bottom:2px;
+	border-bottom:2px solid white;
+	box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+}
